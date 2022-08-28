@@ -1,14 +1,12 @@
+#!/usr/bin/env node
+
 import nodemailer from 'nodemailer';
-import dotenv from 'dotenv';
 
 async function main() {
-    // process.argv[0] -> node
-    // process.argv[1] -> sendEmail.mjs
-    // process.argv[2] -> filepath
+    // process.argv[0] -> sendEmail.mjs
+    // process.argv[1] -> filepath
 
     const filepath = process.argv[2].replace("\\", "");
-
-    dotenv.config();
 
     const message = {
         from: process.env.USER_EMAIL,

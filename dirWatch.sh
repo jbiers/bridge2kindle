@@ -1,5 +1,7 @@
 #! /bin/bash
 
-touch /home/julia/generated-on-startup
+DIR=`pwd`
 
-echo "This file was generated on startup." >> /home/julia/generated-on-startup
+inotifywait -m -e create,moved_to $1 | while read DIRECTORY EVENT FILE; do
+    ./sendKindleEmail/sendKindleEmail.mjs $DIR/$FILE
+done

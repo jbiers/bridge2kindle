@@ -9,6 +9,9 @@ This application was built with Debian-based systems in mind.
 - send source to /usr/share
 - create symbolic link to script in /usr/bin
 - add file to crontab /var/spool/cron/crontabs/myusername
+- apt-get install inotify-tools
+
+MOVED_TO
 
 /bin will hold a symbolic link
 /usr/share will hold the files
