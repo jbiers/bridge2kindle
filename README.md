@@ -2,12 +2,12 @@
 Automatically send your files to Kindle via email
 
 ## Application setup
+
 This application was built with Debian-based systems in mind.
-=========================================================================
+
 - generate .env file
 - send source to /usr/share
 - create symbolic link to script in /usr/bin
-=========================================================================
 
 /bin will hold a symbolic link
 /usr/share will hold the files
