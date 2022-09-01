@@ -11,8 +11,8 @@ Sending files to Kindle can be done in two ways: via USB cable or by sending it 
                                                                                                                
                                                                                                              
 ### 🖥 How to use it
-<p>Warning: this application was built with Linux systems in mind. Specifically Debian-like distros, and may not work in other environments.</p>
----                                                                                                       
+---
+Warning: this application was built with Linux systems in mind. Specifically Debian-like distros, and may not work in other environments.                                                                                                      
 Run locally
   ```bash
 # Clone this repository
