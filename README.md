@@ -50,11 +50,11 @@ The following technologies were used in the development of this project:
                                                                                                                                       
 ### 📚 Learned
 ---
-- Creating routes for a server with Express.
-- How to implement Middlewares.
-- How to use Insomnia to test routes.
-- Generating unique keys with uuid.
-- HTTP methods: Get, Post, Delete, Put, Patch.
+- Scheduling tasks with Crontab. 
+- Watch for events with inotifywait and incron. 
+- Send emails with Nodemailer. 
+- Linux troubleshooting. 
+- Bash scripting. 
                                                                   
 ### 👩 Author
 ---
