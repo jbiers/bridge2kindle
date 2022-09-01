@@ -1,0 +1,5 @@
+#! /bin/bash
+
+inotifywait -m -e create,moved_to $KINDLE_DIR | while read DIRECTORY EVENT FILE; do
+    sendKindleEmail $KINDLE_DIR/$FILE
+done

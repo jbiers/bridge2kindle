@@ -13,6 +13,7 @@ async function main() {
         to: process.env.KINDLE_EMAIL,
         subject: "New file",
         text: "New book",
+        secure: true,
         attachments: [
             {
                 path: filepath,
